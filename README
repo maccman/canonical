@@ -1,0 +1,20 @@
+Canonical
+=========
+
+http://www.seomoz.org/blog/canonical-url-tag-the-most-important-advancement-in-seo-practices-since-sitemaps
+
+Example
+=======
+
+<%= canonical %>
+<link href="http://localhost:3000/main" rel="canonical" />
+
+
+<%= canonical(:action => 'test') %>
+<link href="http://localhost:3000/main/test" rel="canonical" />
+
+
+Alex MacCaw
+info@eribium.org
+
+Copyright (c) 2009 Made By Many, released under the MIT license
